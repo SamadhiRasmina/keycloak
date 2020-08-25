@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e7d7c472-06a4-4426-b66c-7b1dc4296521" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../facebook-security5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo (1).zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/client-app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/client-app/src/main/java/sample/OAuth2ClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/client-app/src/main/java/sample/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/client-app/src/main/java/sample/config/WebClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/client-app/src/main/java/sample/web/CustomAccessTokenResponseConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/client-app/src/main/java/sample/web/CustomAuthorizationRequestResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/client-app/src/main/java/sample/web/DefaultController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/client-app/src/main/java/sample/web/DefaultControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/client-app/src/main/java/sample/web/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/client-app/src/main/java/sample/web/MessagingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/client-app/src/main/java/sample/web/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/client-app/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/client-app/src/main/resources/static/assets/css/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/client-app/src/main/resources/static/assets/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/client-app/src/main/resources/static/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/client-app/src/main/resources/templates/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/client-app/src/main/resources/templates/message-compose.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/client-app/src/main/resources/templates/message-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/client-app/src/main/resources/templates/message-view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/client-app/src/main/resources/templates/templates.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/resource-server/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/resource-server/src/main/java/sample/ResourceServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/resource-server/src/main/java/sample/config/ResourceServerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/resource-server/src/main/java/sample/data/Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/resource-server/src/main/java/sample/data/MessageRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/resource-server/src/main/java/sample/data/UserContact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/resource-server/src/main/java/sample/data/UserProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/resource-server/src/main/java/sample/data/UserProfileRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/resource-server/src/main/java/sample/security/AudienceValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/resource-server/src/main/java/sample/security/GrantedAuthoritiesExtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/resource-server/src/main/java/sample/security/MoreInformativeAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/resource-server/src/main/java/sample/web/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/resource-server/src/main/java/sample/web/ContactsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/resource-server/src/main/java/sample/web/MessagesController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/resource-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/resource-server/src/main/resources/data.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/resource-server/unsecured.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/uaa-server/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../messagin/messaging-app-springone2018-demo/uaa-server/uaa.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-security-5-oauth-client-master.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/com/example/authservice/AuthServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/resources/.keystore-oauth2-demo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/test/java/com/example/authservice/AuthServiceApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-client/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-client/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-client/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-client/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-client/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-client/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/java/com/example/oauth2client/Oauth2ClientApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-client/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/oauth2-client/src/test/java/com/example/oauth2client/Oauth2ClientApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../project-3" beforeDir="false" afterPath="$PROJECT_DIR$/../../project-3" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1g2e7hjmspDwwmHk7ajuGSRwaaw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../junit &amp; Mockito/Ethihadwithcoverage" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e7d7c472-06a4-4426-b66c-7b1dc4296521" name="Default Changelist" comment="" />
+      <created>1597316949551</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597316949551</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
